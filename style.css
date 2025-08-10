@@ -1,258 +1,250 @@
-html, body {
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: roboto-regular;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
 
-    padding: 0 !important;
-    margin: 0 !important;
-    font-family: roboto-regular;
-    font-size: 13px;
-   }
-    a {
-     text-decoration: none;
-    }
-    
-    
-    
-    .full-banner {
-    
-    background-image: url(./assets/svgbackground.svg);
-    background-size: cover;
-    
-    background-position: center;
-    
-    height: 100vh;
-    }
-    
-    .full-banner .menu-bar {
-   padding: 20px 12.5%;
-   }
-   
-   .full-banner .menu-bar .menu-items {
-   text-align: center;
-   }
-   
-   .full-banner .menu-bar .menu-items ul {
-   padding: 0;
-   margin: 0;
-   }
-   
-   .full-banner .menu-bar .menu-items ul li {
-   display: inline-block;
-   margin:  0 10px;
-   font-family: roboto-medium;
-   }
-   
-   .full-banner .menu-bar .menu-items ul li a {
-   color: #045902;
-   font-size: 16px;
-   }
-   
-   .full-banner .menu-bar .menu-items ul Li a:hover {
-   color: #09b706;
-   }
-   
-   .full-banner .menu-bar img {
-   width: 60px;
-   }
-   
-   .button {
-   padding: 10px 20px;
-   border-radius: 50px;
-   }
-   
-   .button-lg {
-   padding: 16px 30px;
-   border-radius: 50px;
-   font-size: 16px;
-   font-family: roboto-medium;
-   }
-   
-   .button-primary {
-   background-color: #088706;
-   color: #FFF;
-   }
-   
-   .button-primary:hover {
-   background-color: #0bbb08;
-   color: #FFF;
-   }
-   
-   .button-primary-outline {
-   border: 2px solid #0bbb08;
-   background-color: #FFF;
-   color: #068104;
-   }
-   
-   .button-primary-outline:hover {
-   color: #0eb60b;
-   }
-   
-   .button-secondary {
-   background-color: #E6B91C;
-   color: #000;
-   }
-   
-   .button-secondary:hover {
-   background-color: #f4ca31;
-   color: #000;
-   }
-   
-   .container {
-   padding: 0 12.5%;
-   }
-   
-   .banner-inner {
-   display: grid;
-   grid-template-columns: 2fr 1fr;
-    }
-   
-    .banner-inner .slogan {
-    font-family: roboto-black;
-    color: #555;
-    margin-top: 100px;
-    }
-   
-    .banner-inner .image-cover {
-    text-align: right;
-    }
-   
-    .h1-title {
-    font-size: 5vw;
-    margin: 0;
-    padding: 0;
-    }
-   
-    .h2-title {
-    font-size: 1.5vw;
-    margin: 0;
-    padding: 0;
-    font-family: roboto-black;
-    color: #333;
-    line-height: 34px;
-    }
-   
-    .section-inner-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
-   
-    .section-title-1 {
-    font-family: roboto-bold;
-    font-size: 52px;
-    margin: 0;
-    padding: 0;
-    }
-   
-    .section-title-2 {
-    color: #0B9609;
-    font-size: 36px;
-    font-family: roboto-black;
-    text-align: center;
-    }
-   
-    .section-title-2 .section-separator {
-    background-color: #E6B91C;
-    padding: 4px;
-    width: 150px;
-    margin: auto;
-    margin-top: 30px;
-    }
-   
-    .wines-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    }
-   
-    .wines-section div {
-    text-align: center;
-    }
-   
-    .d-grid-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    }
-   
-    .d-grid-4 img {
-    border-radius: 10px;
-    }
-   
-    .d-grid-4 .event-description {
-    background-color: #FFF;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 0 20px #AAA;
-    margin-top: -120px;
-    position: relative;
-    }
-   
-    .d-grid-4 .event-description.event-description-- {
-    margin-top: -150px;
-    }
-   
-    .unified-parallax {
-    background: #009448;
-    height: 300px;
-    padding: 30px 0;
-    }
-   
-    .text-primary {
-    color: #0B9609;
-    }
-   
-    .roboto-thin {
-    font-family: roboto-thin;
-    }
-   
-    .roboto-medium {
-    font-family: roboto-medium;
-    }
-   
-    .roboto-bold {
-    font-family: roboto-bold;
-    }
-    
-    .roboto-black {
-    font-family: roboto-black;
-   }
-    .n {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 60px;
-     text-align: center;
-     }
-    
-     .fab-more-cover .fab-more {
-     background-color: #555;
-     padding: 20px;
-     border-radius: 40px;
-     color: #FFF;
-     }
-    
-     @font-face {
-     font-family: roboto-thin;
-     src: url(./fonts/roboto/Roboto-Thin.ttf);
-     }
-    
-     @font-face {
-     font-family: roboto-regular;
-     src: url(./fonts/roboto/Roboto-Regular.ttf);
-     }
-    
-     @font-face {
-     font-family: roboto-medium;
-     src: url(./fonts/roboto/Roboto-Medium.ttf);
-     }
-    
-     @font-face {
-     font-family: roboto-bold;
-     src: url(./fonts/roboto/Roboto-Bold.ttf);
-     }
-    
-     @font-face {
-     font-family: roboto-black;
-     src: url(./fonts/roboto/Roboto-Black.ttf);
-   
-     }
+.full-banner {
+  background-image: url(./assets/svgbackground.svg);
+  background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+}
+
+.full-banner .menu-bar {
+  padding: 20px 12.5%;
+}
+
+.full-banner .menu-bar .menu-items {
+  text-align: center;
+}
+
+.full-banner .menu-bar .menu-items ul {
+  padding: 0;
+  margin: 0;
+}
+
+.full-banner .menu-bar .menu-items ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: baloo-medium;
+}
+
+.full-banner .menu-bar .menu-items ul li a {
+  color: #045902;
+  font-size: 16px;
+}
+
+.full-banner .menu-bar .menu-items ul Li a:hover {
+  color: #09b706;
+}
+
+.full-banner .menu-bar img {
+  width: 60px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.button-lg {
+  padding: 16px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: baloo-medium;
+}
+
+.button-primary {
+  background-color: #088706;
+  color: #fff;
+  font-family: baloo-medium;
+}
+
+.button-primary:hover {
+  background-color: #0bbb08;
+  color: #fff;
+}
+
+.button-primary-outline {
+  border: 2px solid #0bbb08;
+  background-color: #fff;
+  color: #068104;
+}
+
+.button-primary-outline:hover {
+  color: #0eb60b;
+}
+
+.button-secondary {
+  background-color: #e6b91c;
+  color: #000;
+}
+
+.button-secondary:hover {
+  background-color: #f4ca31;
+  color: #000;
+}
+
+.container {
+  padding: 0 12.5%;
+}
+
+.banner-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.banner-inner .slogan {
+  font-family: baloo-black;
+  color: #555;
+  margin-top: 20px;
+}
+
+.banner-inner .image-cover {
+  text-align: right;
+}
+
+.h1-title {
+  font-size: 5vw;
+  margin: 0;
+  padding: 0;
+}
+
+.h2-title {
+  font-size: 1.5vw;
+  margin: 0;
+  padding: 0;
+  font-family: baloo-black;
+  color: #333;
+  line-height: 34px;
+}
+
+.section-inner-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-title-1 {
+  font-family: baloo-bold;
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-title-2 {
+  color: #0b9609;
+  font-size: 36px;
+  font-family: baloo-black;
+  text-align: center;
+}
+
+.section-title-2 .section-separator {
+  background-color: #e6b91c;
+  padding: 4px;
+  width: 150px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.wines-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.wines-section div {
+  text-align: center;
+}
+
+.d-grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.d-grid-4 img {
+  border-radius: 10px;
+}
+
+.d-grid-4 .event-description {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 20px #aaa;
+  margin-top: -120px;
+  position: relative;
+}
+
+.d-grid-4 .event-description.event-description-- {
+  margin-top: -150px;
+}
+
+.unified-parallax {
+  background: #009448;
+  height: 300px;
+  padding: 30px 0;
+}
+
+.text-primary {
+  color: #0b9609;
+}
+
+.baloo-regular {
+  font-family: baloo-regular;
+}
+
+.baloo-medium {
+  font-family: baloo-medium;
+}
+
+.baloo-bold {
+  font-family: baloo-bold;
+}
+
+.baloo-black {
+  font-family: baloo-black;
+}
+.n {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  text-align: center;
+}
+
+.fab-more-cover .fab-more {
+  background-color: #555;
+  padding: 20px;
+  border-radius: 40px;
+  color: #fff;
+}
+
+@font-face {
+  font-family: baloo-regular;
+  src: url(./fonts/baloo/Baloo2-Regular.ttf);
+}
+
+@font-face {
+  font-family: baloo-medium;
+  src: url(./fonts/baloo/Baloo2-Medium.ttf);
+}
+
+@font-face {
+  font-family: baloo-bold;
+  src: url(./fonts/baloo/Baloo2-Bold.ttf);
+}
+
+@font-face {
+  font-family: baloo-black;
+  src: url(./fonts/baloo/Baloo2-ExtraBold.ttf);
+}
